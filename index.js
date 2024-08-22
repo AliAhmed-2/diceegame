@@ -6,6 +6,7 @@ function randomDiceImages(){
     return randomimage;
 }
 
+
 function setImages(){
     var image1= document.querySelectorAll("img")[0];
     image1.setAttribute("src", randomDiceImages());
